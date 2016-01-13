@@ -10,7 +10,7 @@
 			org.hibernate.dialect.MySQLDialect
 		</property>
 		<property name="connection.url">
-			jdbc:mysql://localhost:3306/dong
+			jdbc:mysql://localhost:3306/dong?useUnicode=true&amp;characterEncoding=UTF-8
 		</property>
 		<property name="connection.username">root</property>
 		<property name="connection.password">root</property>
@@ -22,6 +22,8 @@
 		</property>
 
 		<mapping resource="cn/dong/hibernate/orm/User.hbm.xml" />
+		<mapping resource="cn/dong/hibernate/orm/AddressInf.hbm.xml" />
+		<mapping resource="cn/dong/hibernate/orm/PersonInf.hbm.xml" />
 	</session-factory>
 
 </hibernate-configuration>
