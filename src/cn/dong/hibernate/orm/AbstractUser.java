@@ -1,4 +1,4 @@
-package cn.dong.hibernate.test;
+package cn.dong.hibernate.orm;
 // default package
 
 

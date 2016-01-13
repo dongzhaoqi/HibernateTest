@@ -1,4 +1,4 @@
-package cn.dong.hibernate.test;
+package cn.dong.hibernate.util;
 
 import org.hibernate.HibernateException;
 import org.hibernate.Session;

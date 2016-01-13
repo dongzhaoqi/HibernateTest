@@ -21,7 +21,7 @@
 			sqldriver
 		</property>
 
-		<mapping resource="cn/dong/hibernate/test/User.hbm.xml" />
+		<mapping resource="cn/dong/hibernate/orm/User.hbm.xml" />
 	</session-factory>
 
 </hibernate-configuration>
